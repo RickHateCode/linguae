@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Line from "../sub-ui/title-line";
-import { merienda,nunito_sans } from "../lib/fonts";
+// import { merienda,nunito_sans } from "../lib/fonts";
 import { cn } from "../lib/cn";
 
 

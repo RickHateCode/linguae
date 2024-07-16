@@ -1,6 +1,6 @@
 import { Navbar } from "./ui/Navbar";
 import Image from 'next/image';
-import {inter,roboto_mono, merienda} from "./lib/fonts";
+// import {inter,roboto_mono, merienda} from "./lib/fonts";
 import { Pyramid } from "./ui/pyramide";
 import { CardHoverEffectDemo } from "./ui/CardHover";
 import { GoogleGeminiEffectDemo } from "./ui/gemini";
