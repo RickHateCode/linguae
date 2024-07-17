@@ -1,4 +1,5 @@
 import './ui/globals.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 // import {inter, merienda, nunito_sans} from "./lib/fonts";
 
 export default function RootLayout({
@@ -8,7 +9,7 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body className=''>{children}</body>
+        <body className=''>{children} <SpeedInsights /></body>
       </html>
     )
   }
