@@ -7,7 +7,7 @@ import { GoogleGeminiEffectDemo } from "./ui/gemini";
 
 import LampDemo from "./ui/lamp-section";
 import { BackgroundGradientDemo } from "./ui/BGCard-gradient";
-import { InfiniteMovingCardsDemo } from "./ui/infinite-moving-card";
+// import { InfiniteMovingCardsDemo } from "./ui/infinite-moving-card";
 import Contact from "./ui/contact";
 
 import localfont from "next/font/local"
