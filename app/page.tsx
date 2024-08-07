@@ -4,15 +4,15 @@ import Image from 'next/image';
 import { Pyramid } from "./ui/pyramide";
 import { CardHoverEffectDemo } from "./ui/CardHover";
 import { GoogleGeminiEffectDemo } from "./ui/gemini";
-import TitleBpartners from "./ui/titleBp";
+
 import LampDemo from "./ui/lamp-section";
 import { BackgroundGradientDemo } from "./ui/BGCard-gradient";
 import { InfiniteMovingCardsDemo } from "./ui/infinite-moving-card";
 import Contact from "./ui/contact";
-import TypewriterEffectSmoothDemo from "./ui/typewritter";
+
 import localfont from "next/font/local"
 import Button from "./ui/button";
-import Line from "./sub-ui/title-line";
+
 import CardServices from "./ui/card-services";
 import Navbar from "./ui/Navbar";
 import Hero from "./ui/hero";
@@ -35,8 +35,8 @@ export default function Page() {
           <div className="text-center ">
             <p className="relative mt-6 text-2xl  text-white whitespace-pre-wrap sm:text-4xl">
             Linguae est la première agence de traduction innovante, entièrement en ligne.
-Commandez vos traductions en quelques clics, linguae s'occupe du reste
-pour vous garantir un niveau de qualité irréprochable, dans les plus brefs délais.
+Commandez vos traductions en quelques clics linguae soccupe du reste
+pour vous garantir un niveau de qualité irréprochable dans les plus brefs délais.
             </p>
           </div>
           </div>

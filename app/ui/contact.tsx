@@ -16,7 +16,7 @@
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Field, Label, Switch } from '@headlessui/react'
-import TitleBpartners from './titleBp';
+
 
 
 function classNames(...classes: (string | boolean | undefined | null)[]) {
@@ -42,7 +42,7 @@ export default function Contact() {
       </div> */}
        <div className="mx-auto max-w-2xl lg:text-center">
                  <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                 Curieux d'en savoir plus ? Contactez-nous dès maintenant, nos conseillers experts sont à votre écoute.
+                 Curieux d en savoir plus ? Contactez-nous dès maintenant, nos conseillers experts sont à votre écoute.
                  </p>
               </div>
        <div className='bg-white mx-auto max-w-2xl px-6'>
