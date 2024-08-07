@@ -22,10 +22,11 @@ export default function Hero() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <Image
+              <img
                 alt=""
                 src={`/linguae.png`}
                 className="h-20 w-auto"
+                
               />
             </a>
           </div>
