@@ -32,7 +32,8 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite"
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        grid: "grid 15s linear infinite",
       },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
@@ -52,6 +53,12 @@ const config: Config = {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                 "gradient-conic":
                 "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      keyframes: {
+        grid: {
+          "0%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(0)" },
+        },
       },
     },
     keyframes: {
